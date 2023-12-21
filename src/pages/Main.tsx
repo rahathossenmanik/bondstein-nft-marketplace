@@ -4,6 +4,7 @@ import HeroSection from '../components/HeroSection';
 import FeaturePros from '../components/FeaturePros';
 import Footer from '../components/Footer';
 import TopNFTSection from '../components/TopNFTSection';
+import Collection from '../components/Collection';
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <HeroSection />
       <FeaturePros />
       <TopNFTSection />
+      <Collection />
       <Footer />
     </>
   );

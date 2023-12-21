@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import TopNFTSection from '../components/TopNFTSection';
 import Collection from '../components/Collection';
 import SignupSection from '../components/SignupSection';
+import MarketPlace from '../components/MarketPlace';
 
 const Main = () => {
   return (
@@ -16,6 +17,7 @@ const Main = () => {
       <TopNFTSection />
       <Collection />
       <SignupSection />
+      <MarketPlace />
       <Footer />
     </>
   );

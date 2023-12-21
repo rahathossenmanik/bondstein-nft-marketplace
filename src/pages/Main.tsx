@@ -5,6 +5,7 @@ import FeaturePros from '../components/FeaturePros';
 import Footer from '../components/Footer';
 import TopNFTSection from '../components/TopNFTSection';
 import Collection from '../components/Collection';
+import SignupSection from '../components/SignupSection';
 
 const Main = () => {
   return (
@@ -14,6 +15,7 @@ const Main = () => {
       <FeaturePros />
       <TopNFTSection />
       <Collection />
+      <SignupSection />
       <Footer />
     </>
   );

@@ -3,7 +3,7 @@ import { nft1, nft2, nft3 } from '../assets/images';
 
 const Collection = () => {
   return (
-    <div className='mt-24 bg-indigo-100 p-8'>
+    <div className='mt-24 bg-indigo-100 p-8' id='resource'>
       <h2 className='text-3xl font-bold mb-6'>COLLECTION FEATURED NFTS</h2>
       <div className='grid grid-cols-3 gap-4'>
         <div className='space-y-4'>

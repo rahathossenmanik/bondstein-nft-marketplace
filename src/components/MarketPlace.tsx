@@ -4,7 +4,7 @@ import { Icon } from '@iconify/react';
 
 const MarketPlace = () => {
   return (
-    <div className='mt-24 px-8 py-16 bg-indigo-100'>
+    <div className='mt-24 px-8 py-16 bg-indigo-100' id='marketplace'>
       <div>
         <h2 className='text-4xl font-bold'>DISCOVER MORE NFTS</h2>
       </div>

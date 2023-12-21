@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const FeaturePros = () => {
   return (
-    <div className='mt-24 bg-indigo-100 px-8 py-16'>
+    <div className='mt-24 bg-indigo-100 px-8 py-16' id='about'>
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0'>
         <h1 className='me-8 text-4xl font-bold uppercase'>
           The amazing NFT art of the world here

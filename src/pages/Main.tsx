@@ -2,6 +2,7 @@ import React from 'react';
 import TopNavbar from '../components/TopNavbar';
 import HeroSection from '../components/HeroSection';
 import FeaturePros from '../components/FeaturePros';
+import TopNFTSection from '../components/TopNFTSection';
 
 const Main = () => {
   return (
@@ -9,6 +10,7 @@ const Main = () => {
       <TopNavbar />
       <HeroSection />
       <FeaturePros />
+      <TopNFTSection />
     </>
   );
 };

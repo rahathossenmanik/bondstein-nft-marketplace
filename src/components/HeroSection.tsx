@@ -3,7 +3,7 @@ import { nft1, nft2, nft3 } from '../assets/images';
 
 const HeroSection = () => {
   return (
-    <section className='mt-24 mx-auto max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8'>
+    <section className='mt-24 mx-auto relative max-w-screen-xl pb-4 px-4 items-center lg:flex md:px-8'>
       <div className='space-y-4 flex-1 sm:text-center lg:text-left'>
         <h1 className='text-gray-800 font-bold text-4xl xl:text-5xl'>
           DISCOVER, AND COLLECT DIGITAL ART
@@ -35,22 +35,32 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className='flex-1 top-0 left-0 text-center mt-4 lg:mt-0 lg:ml-3'>
+      <div className='flex-1 relative top-0 right-0 text-center mt-4 lg:mt-0 lg:ml-3'>
         <img
           src={nft1}
           alt='NFT 1'
-          className='w-3/6 relative left-20 top-0 z-10 rounded-xl my-auto'
+          className='w-3/6 absolute left-20 -top-28 z-30 rounded-xl my-auto'
         />
         <img
           src={nft2}
           alt='NFT 2'
-          className='w-3/5 relative left-20 -top-40 z-20 rounded-xl my-auto'
+          className='w-3/5 absolute left-20 -top-32 z-20 rounded-xl my-auto'
         />
         <img
           src={nft3}
           alt='NFT 3'
-          className='w-3/4 relative left-20 -top-80 z-30 rounded-xl my-auto'
+          className='w-3/4 absolute left-20 -top-40 z-10 rounded-xl my-auto'
         />
+        <div className='py-3 absolute -bottom-30 left-24 z-40 mx-4 px-4 rounded-md bg-blue-50 hover:shadow-xl flex items-center justify-left space-x-4 md:space-x-8'>
+          <div className='flex items-center flex-col'>
+            <div className='text-md font-bold'>Current Bid</div>
+            <span className='text-gray-500'>0.25 ETH</span>
+          </div>
+          <div className='flex items-center flex-col'>
+            <div className='text-md font-bold'>Ends in</div>
+            <span className='text-gray-500'>12h 42m 43s</span>
+          </div>
+        </div>
       </div>
     </section>
   );

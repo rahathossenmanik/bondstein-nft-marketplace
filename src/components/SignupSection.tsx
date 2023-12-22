@@ -3,7 +3,7 @@ import { nft1, nft2, nft3 } from '../assets/images';
 
 const SignupSection = () => {
   return (
-    <div className='mt-24 flex justify-center items-center bg-white'>
+    <div className='mt-24 max-w-screen-xl flex justify-center items-center bg-white'>
       <div className='flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0 p-6'>
         <div className='grid grid-cols-2 gap-4'>
           <img

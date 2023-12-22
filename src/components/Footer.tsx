@@ -11,7 +11,7 @@ const Footer = () => {
             NFTERS
           </a>
         </div>
-        <div>&copy; {new Date().getFullYear()} NFTERS</div>
+        <div>NFTERS &copy; {new Date().getFullYear()} | MANIK HOSEN</div>
       </div>
     </nav>
   );

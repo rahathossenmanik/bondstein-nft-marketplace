@@ -24,7 +24,7 @@ const nfts = [
 
 const TopNFTSection = () => {
   return (
-    <div className='mt-24 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+    <div className='mt-24 max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8'>
       <div className='grid grid-cols-3 gap-6'>
         <div className='col-span-2 grid grid-cols-2 gap-6'>
           <div>

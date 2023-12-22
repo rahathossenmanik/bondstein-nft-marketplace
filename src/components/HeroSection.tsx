@@ -35,7 +35,7 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className='flex-1 relative top-0 right-0 text-center mt-4 lg:mt-0 lg:ml-3'>
+      <div className='flex-1 relative top-0 right-0 text-center mt-4 lg:mt-0 lg:ml-3 hidden lg:block'>
         <img
           src={nft1}
           alt='NFT 1'

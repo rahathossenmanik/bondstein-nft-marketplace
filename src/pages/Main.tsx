@@ -19,6 +19,14 @@ const Main = () => {
       <SignupSection />
       <MarketPlace />
       <Footer />
+      <div className='git-repo-ribbon'>
+        <a
+          href='https://github.com/rahathossenmanik/bondstein-nft-marketplace'
+          target='_blank'
+          rel='noreferrer'>
+          View Repo in GitHub
+        </a>
+      </div>
     </>
   );
 };
